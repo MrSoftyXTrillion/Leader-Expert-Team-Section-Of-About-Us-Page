@@ -1,0 +1,123 @@
+/* !COMMON CSS STARTS HERE====================================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Roboto&display=swap');
+:root {
+    --primaryFont: 'Josefin Sans', sans-serif;
+    --secondaryFont: 'Roboto', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--primaryFont);
+    background-color: rgb(255, 255, 255);
+}
+h1,h2,h3,h4,h5,h6,span,paragraph,ol,ul {
+    margin: 0;
+    padding: 0;
+}
+ul,ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* !COMMON CSS ENDS HERE======================================================================================== */
+
+/* &TEAM INFO STARTS HERE */
+#leaderExpertTeamInfo h2 {
+    color: var(--text-color, #11161E);
+    text-align: center;
+    font-family: var(--primaryFont);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+}
+#leaderExpertTeamInfo .slickSlider {
+    position: relative;
+}
+#leaderExpertTeamInfo .slickSlider .card {
+    padding: 20px 50px;
+    border: none;
+    outline: none;
+}
+#leaderExpertTeamInfo .slickSlider .card .cardCnt {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#leaderExpertTeamInfo .slickSlider .card .cardCnt .imgPart {
+    margin: 0 0 12px 0;
+}
+#leaderExpertTeamInfo .slickSlider .card .cardCnt .imgPart img {
+    width: 100%;
+}
+#leaderExpertTeamInfo .slickSlider .card .cardCnt .textPart h1 {
+    color: var(--text-color, #11161E);
+    text-align: center;
+    font-family: var(--primaryFont);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 12px 0 3px 0;
+}
+#leaderExpertTeamInfo .slickSlider .card .cardCnt .textPart h5 {
+    color: var(--1st-primary-color, #FF6F61);
+    text-align: center;
+    font-family: var(--secondaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 3px 0 5px 0;
+}
+#leaderExpertTeamInfo .slickSlider .card .cardCnt .textPart ul {
+    text-align: center;
+    padding: 5px 0 24px 0;
+}
+#leaderExpertTeamInfo .slickSlider .card .cardCnt .textPart ul li {
+    display: inline-block;
+}
+#leaderExpertTeamInfo .slickSlider .card .cardCnt .textPart ul li a {
+    font-size: 15px;
+    color: #444444;
+    padding: 0 5px;
+    transition: 0.3s ease;
+}
+#leaderExpertTeamInfo .slickSlider .card .cardCnt .textPart ul li:hover a {
+    color: #FF6F61;
+}
+#leaderExpertTeamInfo .slickSlider .leftArrow {
+    position: absolute;
+    top: 50%;
+    left: 0.6%;
+    transform: translateX(3%);
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid grey;
+    background-color: #FFFFFF;
+    transition: 0.3s ease;
+}
+#leaderExpertTeamInfo .slickSlider .rightArrow {
+    position: absolute;
+    top: 50%;
+    left: 99.4%;
+    transform: translateX(-100%);
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid grey;
+    background-color: #FFFFFF;
+    transition: 0.3s ease;
+}
+#leaderExpertTeamInfo .slickSlider .rightArrow:hover,
+#leaderExpertTeamInfo .slickSlider .leftArrow:hover {
+    background-color: #FF6F61;
+}
+/* &TEAM INFO ENDS HERE */
